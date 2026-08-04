@@ -1,23 +1,23 @@
-# 🚀 LeetRevision — DSA & SQL Spaced Repetition Tracker
+# LeetRevision — DSA & SQL Spaced Repetition Tracker
 
 A full-stack, LeetCode-themed Spaced Repetition Flashcard & Analytics Tracker designed to help developers master Data Structures, Algorithms, and SQL queries through daily practice and intelligent revision tracking.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- **🔥 Daily Streak & Progress Metrics**: Tracks your current streak, all-time record max streak, total cards mastered, and daily DSA/SQL targets.
-- **🟩 365-Day Revision Heatmap**: LeetCode-inspired contribution grid with real-time hover tooltips (`X submissions on MMM DD, YYYY`) tracking daily revision intensity.
-- **🃏 3D Spaced Repetition Flashcards**: Interactive 3D flip card viewer with self-testing question front and key insight/code solution back.
-- **⚡ 4-Level Confidence Rating System**: Grade your recall interval with `Again`, `Hard`, `Good`, and `Easy` ratings to update mastery levels.
-- **💻 Tailored DSA & SQL Workflows**:
+- ** Daily Streak & Progress Metrics**: Tracks your current streak, all-time record max streak, total cards mastered, and daily DSA/SQL targets.
+- ** 365-Day Revision Heatmap**: LeetCode-inspired contribution grid with real-time hover tooltips (`X submissions on MMM DD, YYYY`) tracking daily revision intensity.
+- ** 3D Spaced Repetition Flashcards**: Interactive 3D flip card viewer with self-testing question front and key insight/code solution back.
+- ** 4-Level Confidence Rating System**: Grade your recall interval with `Again`, `Hard`, `Good`, and `Easy` ratings to update mastery levels.
+- ** Tailored DSA & SQL Workflows**:
   - **DSA Problems**: Includes Key Insights, LeetCode problem links, complexity notes, tags, and multi-language solution code snippets (C++, Python, Java, JavaScript).
   - **SQL Queries & Topics**: Streamlined interface focusing on SQL syntax, topic categories (Window Functions, CTEs, Joins), and query patterns.
-- **📱 100% Fully Responsive UI**: Sleek dark mode design built with Tailwind CSS, custom glassmorphism components, and adaptive mobile header controls.
+- ** 100% Fully Responsive UI**: Sleek dark mode design built with Tailwind CSS, custom glassmorphism components, and adaptive mobile header controls.
 
 ---
 
-## 🏗️ Architecture & Technology Stack
+##  Architecture & Technology Stack
 
 ```
                                   +-----------------------+
@@ -54,7 +54,7 @@ A full-stack, LeetCode-themed Spaced Repetition Flashcard & Analytics Tracker de
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 My_tracker/
@@ -91,7 +91,7 @@ My_tracker/
 
 ---
 
-## 🔌 API Endpoints Summary
+##  API Endpoints Summary
 
 ### Flashcards API (`/api/flashcards`)
 
@@ -114,7 +114,7 @@ My_tracker/
 
 ---
 
-## ⚡ Quick Start & Installation
+##  Quick Start & Installation
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18+ recommended)
@@ -148,5 +148,5 @@ npm run dev
 
 ---
 
-## 📝 License
+##  License
 This project is open-source and available under the **MIT License**.
