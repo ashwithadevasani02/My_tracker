@@ -30,6 +30,10 @@ app.get('/api/health', (req, res) => {
 // Error handling middleware
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  console.log(`[Server] DSA & SQL Revision Tracker Backend running on port ${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`[Server] DSA & SQL Revision Tracker Backend running on port ${PORT}`);
+  });
+}
+
+module.exports = app;
