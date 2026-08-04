@@ -6,17 +6,8 @@
       "framework": "vite"
     },
     "backend": {
-      "root": "backend"
+      "root": "backend",
+      "entrypoint": "server.js"
     }
-  },
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/frontend/$1"
-    }
-  ]
+  }
 }
